@@ -7,3 +7,24 @@
 //
 
 import Foundation
+
+
+struct Song: Codable {
+    let duration: String
+    let id: String
+    let name: String
+    
+    enum SongKeys: String, CodingKey {
+        case duration
+        case id
+        case name
+        
+        enum DurationKeys: String, CodingKey {
+            case duration
+        }
+        
+        enum NameKeys: String, CodingKey {
+            case title
+        }
+    }
+}
