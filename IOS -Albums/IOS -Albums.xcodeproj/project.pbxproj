@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E6E381823D010A700F742C4 /* exampleAlbum.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E6E381723D010A700F742C4 /* exampleAlbum.json */; };
 		3EFE0BB923CE3052003208D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFE0BB823CE3052003208D8 /* AppDelegate.swift */; };
 		3EFE0BBB23CE3052003208D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFE0BBA23CE3052003208D8 /* SceneDelegate.swift */; };
 		3EFE0BC023CE3052003208D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EFE0BBE23CE3052003208D8 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E6E381723D010A700F742C4 /* exampleAlbum.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = exampleAlbum.json; path = ../../exampleAlbum.json; sourceTree = "<group>"; };
 		3EFE0BB523CE3052003208D8 /* IOS -Albums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS -Albums.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFE0BB823CE3052003208D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EFE0BBA23CE3052003208D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				3EFE0BBA23CE3052003208D8 /* SceneDelegate.swift */,
 				3EFE0BBE23CE3052003208D8 /* Main.storyboard */,
 				3EFE0BC123CE3054003208D8 /* Assets.xcassets */,
+				3E6E381723D010A700F742C4 /* exampleAlbum.json */,
 				3EFE0BC323CE3054003208D8 /* LaunchScreen.storyboard */,
 				3EFE0BC623CE3054003208D8 /* Info.plist */,
 			);
@@ -174,6 +177,7 @@
 			files = (
 				3EFE0BC523CE3054003208D8 /* LaunchScreen.storyboard in Resources */,
 				3EFE0BC223CE3054003208D8 /* Assets.xcassets in Resources */,
+				3E6E381823D010A700F742C4 /* exampleAlbum.json in Resources */,
 				3EFE0BC023CE3052003208D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
