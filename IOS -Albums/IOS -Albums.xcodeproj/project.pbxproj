@@ -68,7 +68,6 @@
 			children = (
 				3EFE0BB823CE3052003208D8 /* AppDelegate.swift */,
 				3EFE0BD623CE96BE003208D8 /* Controllers */,
-				3EFE0BD823CE96EA003208D8 /* ViewControllers */,
 				3EFE0BDB23CE9756003208D8 /* Views */,
 				3EFE0BBA23CE3052003208D8 /* SceneDelegate.swift */,
 				3EFE0BBE23CE3052003208D8 /* Main.storyboard */,
@@ -84,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				3EFE0BD423CE96B4003208D8 /* AlbumController.swift */,
+				3EE5651923D54C71009A47F0 /* AlbumDetailViewController.swift */,
+				3EFE0BCC23CE67F5003208D8 /* AlbumsTableViewController.swift */,
 				3EFE0BD723CE96D1003208D8 /* Models */,
 			);
 			path = Controllers;
@@ -95,15 +96,6 @@
 				3EFE0BD023CE9681003208D8 /* Album.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		3EFE0BD823CE96EA003208D8 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				3EE5651923D54C71009A47F0 /* AlbumDetailViewController.swift */,
-				3EFE0BCC23CE67F5003208D8 /* AlbumsTableViewController.swift */,
-			);
-			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		3EFE0BDB23CE9756003208D8 /* Views */ = {
