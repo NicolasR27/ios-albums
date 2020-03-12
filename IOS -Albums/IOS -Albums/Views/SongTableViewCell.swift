@@ -6,7 +6,6 @@
 //  Copyright © 2020 Nicolas Rios. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 protocol SongTableViewCellDelegate: AnyObject {
@@ -63,14 +62,4 @@ class SongTableViewCell: UITableViewCell {
     
     
    
-    
-    //MARK: Lifecycle Methods
-    
-    
-    
-    //MARK: Functions
-    
-    
-    
-    
-}
+    }

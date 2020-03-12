@@ -30,7 +30,7 @@ class AlbumController {
             
             do {
                 let str = String(data: data, encoding: .utf8)
-                print(str)
+                print(str as Any)
                 let albums = Array(try JSONDecoder().decode([String: Album].self, from: data).values)
                 
                 self.albums = albums
